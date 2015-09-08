@@ -2,4 +2,8 @@
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-echo __FILE__;
+
+$database = new \Generate\Database;
+
+w($database);
+
