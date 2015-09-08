@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Generate\\Base' => $baseDir . '/libraries/base.cls.php',
     'Generate\\Database' => $baseDir . '/libraries/database.cls.php',
+    'Generate\\Validation' => $baseDir . '/libraries/validation.cls.php',
 );
